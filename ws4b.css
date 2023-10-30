@@ -1,0 +1,55 @@
+body {
+	background: #232323;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	background: rgb(37, 143, 229);
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 40px 0;
+}
+
+button {
+	color: rgb(37, 143, 229);
+	border: none;
+	background: none;
+	letter-spacing: 1px;
+	font-weight: 800;
+	font-size: inherit;
+	height: 100%;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background: rgb(37, 143, 229);
+}
+
+
+#container {
+	margin: 40px auto;
+	max-width: 700px;
+}
+.cuadrado {
+	background: rgb(0, 128, 109);
+	width: 30%;
+	margin: 1.62%;
+	padding-bottom: 30%;
+	float: left;
+    cursor: pointer;
+}
+
+.selected {
+	color: white;
+	background: rgb(37, 143, 229);
+}
+
+span{
+    color: aliceblue;
+}
